@@ -1,0 +1,34 @@
+﻿<div class="cti">
+    <img src="~/Imagens/hui_.jpg" alt="Foto do fundo csharp" />
+</div>
+@model List<string>
+
+<br />
+<br />
+<br />
+<br />
+<table id="teste" class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th class="tabela__" scope="col" style="text-align:center">Valor</th>
+            <th class="tabela__" scope="col" style="text-align:center">Decomposição</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var valorDecomposto in ViewBag.ValoresDecompostos)
+        {
+            <tr>
+                <td>@valorDecomposto.Split('=')[0].Trim()</td>
+                <td>@valorDecomposto.Split('=')[1].Trim()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#teste').DataTable();
+    });
+
+</script>

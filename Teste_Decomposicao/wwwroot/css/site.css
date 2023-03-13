@@ -1,0 +1,195 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #dcdbdb;
+}
+/*---------------------------------------------------------------------------------------------
+                                Imagem de fundo*/
+.cti {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cti img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 30%;
+}
+
+/*----------------------------------------------------------------------------------------------
+                                Botões de navegação*/
+
+.nav {
+    margin: 17px 0px -82px -12px;
+    font-weight: bold;
+    position: relative;
+    z-index: 9999;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.color {
+    color: black;
+    text-decoration: none;
+    margin: 0px 3px 0px 15px;
+    font-size: 22px;
+}
+
+/*---------------------------------------------------------------------------------------------
+                                    Página Home*/
+
+.titulo__intro {
+    font-size: 33px;
+    margin: 130px 0px 0px 25px;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.txt__intro {
+    font-size: 20px;
+    margin: 10px 0px 60px 75px;
+    position: relative;
+}
+
+.home__ {
+    font-size: 25px;
+    margin-left: 26px;
+    position: relative;
+}
+
+.txt__home {
+    font-size: 18px;
+    text-indent: 95px;
+    position: relative;
+}
+
+.cv__ {
+    font-size: 25px;
+    margin-left: 123px;
+    position: relative;
+}
+
+.txt__cv {
+    font-size: 18px;
+    text-indent: 200px;
+    position: relative;
+}
+
+.teste__ {
+    font-size: 25px;
+    margin-left: 225px;
+    position: relative;
+}
+
+.txt__teste {
+    font-size: 18px;
+    text-indent: 300px;
+    position: relative;
+}
+
+.about__ {
+    font-size: 25px;
+    margin-left: 330px;
+    position: relative;
+}
+
+.txt__about {
+    font-size: 18px;
+    text-indent: 422px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------------------
+                                  Página Index (currículo)*/
+
+.p__Index__primeiro {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-indent: 25px;
+}
+
+.p__Index {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.icones__ {
+    position: relative;
+    width: 75px;
+    height: 68px;
+}
+
+.titulo__redes {
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.redes__ {
+    position: relative;
+}
+
+/*--------------------------------------------------------------------------------------------------
+                                 Página Decomposição*/
+
+.tabela__ {
+    text-align: center;
+}
+
+table {
+    position: relative;
+}
+
+.row{
+    position: relative;
+}
+/*-----------------------------------------------------------------------------------------------
+                                 Página Sobre Mim*/
+
+.txt__sobremim__primeiro {
+    position: relative;
+    margin: 125px 0px 0px 70px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-indent: 25px;
+}
+
+.txt__sobre {
+    position: relative;
+    margin: 30px 0px 0px 70px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}

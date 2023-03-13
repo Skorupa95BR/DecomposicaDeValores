@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\css\NovaPasta\**" />
+    <Content Remove="wwwroot\css\NovaPasta\**" />
+    <EmbeddedResource Remove="wwwroot\css\NovaPasta\**" />
+    <None Remove="wwwroot\css\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.bootstrap.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.bootstrap.min.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.bootstrap4.min.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.bootstrap5.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.bootstrap5.min.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.bulma.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.bulma.min.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.dataTables.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.dataTables.min.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.foundation.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.foundation.min.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.jqueryui.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.jqueryui.min.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.semanticui.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\dataTables.semanticui.min.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\jquery.dataTables.js" />
+    <None Include="wwwroot\DataTable\DataTables-1.13.3\js\jquery.dataTables.min.js" />
+  </ItemGroup>
+
+</Project>
